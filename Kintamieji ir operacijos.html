@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kintamieji ir operacijos</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        var sk1, sk2, sk3, sk4, suma, sandauga;
+        sk1 = 5;
+        sk2 = 8;
+        sk3 = 11;
+        sk4 = 9
+        suma = sk1 + sk2 + sk3 + sk4;
+        sandauga = sk1 * sk2 * sk3 * sk4;
+
+        console.log("skaicius1 =" +" " + sk1);
+        console.log("skaicius2 =" +" " + sk2);
+        console.log("skaicius3 =" +" " + sk3);
+        console.log("skaicius4 =" +" " + sk4);
+
+        console.log('suma =' + suma);
+        console.log('sandauga =' + sandauga);
+
+        var sklaikinas;
+        
+        sklaikinas = sk1;
+        sk1 = sk2; 
+        sk2 = sklaikinas;
+
+        console.log("skaicius1 =" +" " + sk1);
+        console.log("skaicius2 =" +" " + sk2);
+
+        
+        [sk3,sk4] = [sk4,sk3];
+
+        console.log("skaicius3 =" +" " + sk3);
+        console.log("skaicius4 =" +" " + sk4);
+
+
+
+
+
+       
+
+       
+
+
+    </script>
+    
+</body>
+</html>
